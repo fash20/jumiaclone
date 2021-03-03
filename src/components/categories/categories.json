@@ -1,0 +1,14 @@
+[
+    {
+        "name": "Supermarket",
+        "icon": "<IoStorefrontOutline className='icon-margin' fontSize='20px' />",
+        "subGroup": [
+            {
+                "name": "FOOD CUPBOARD",
+                "items": ["Grains & Rice", "Pasta", "Noodles", "Breakfast Foods", "Herbs, Spices & Seasoning", "Flours & Meals", "Malt Drinks"]
+
+            }
+        ]
+    }
+    
+]

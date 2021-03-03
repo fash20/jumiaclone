@@ -1,0 +1,15 @@
+.details-container{
+    width: 100%;
+
+}
+.detail{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* padding: 20px; */
+
+}
+.margin{
+    margin: 10px 5px;
+}

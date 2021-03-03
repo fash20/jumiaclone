@@ -1,0 +1,38 @@
+.info-container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 400px;
+    padding: 40px;
+}
+
+.info-body-container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 15px;
+}
+.info-body{
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-bottom: 10px ;
+}
+.fade{
+    font-size: 14px;
+    color: #999
+}
+.icons-container{
+    display: inline-flex;
+    align-items: center;
+}
+.below-header{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    border-top: 1px solid #ededed
+}
+

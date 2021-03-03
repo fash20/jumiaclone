@@ -1,0 +1,16 @@
+.product-card-w-button{
+    box-sizing: border-box;
+    min-height: 390px;
+    max-width: 200px;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+    margin: 5px;
+    
+
+}
+.product-card-w-button:hover{
+    box-shadow: -5px -5px 20px rgb(0 0 0 /10%);
+    transform: scale(1.01);
+
+}

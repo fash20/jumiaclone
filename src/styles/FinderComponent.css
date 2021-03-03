@@ -1,0 +1,55 @@
+.finder-category-container{
+    display: flex;
+    flex-direction:  column;
+    width: 296px;
+
+}
+.subcategory-stack{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    color: #282828;
+    padding: 4px 0px;
+    border-bottom: 1px solid #f2f2f2f2;
+}
+.subcategory{
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 30px;
+    width: 100%;
+    padding-bottom: 5px;
+    display: inline-flex;
+    align-items: center;
+    padding: 15px;
+
+}
+.subcategory:hover{
+    background-color: #ededed;
+}
+.checkbox-brand{
+    box-sizing: border-box;
+    font-size: 14px;
+    height: 30px;
+    width: 100%;
+    padding-bottom: 5px;
+    display: inline-flex;
+    align-items: center;
+    padding: 9px;
+
+}
+.subcategory-brand-stack{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    color: #282828;
+    padding: 4px 0px;
+    border-bottom: 1px solid #f2f2f2f2;
+    height: 100px;
+    overflow-y: scroll;
+}
+.input-icon-brand{
+    padding: .5px;
+    margin: 0;
+    background-color: #fff;
+    border-radius: 3px;
+}

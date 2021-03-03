@@ -1,0 +1,28 @@
+.product-card-container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    margin:10px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.product-card-container:hover{
+    box-shadow: 2px 5px 15px rgb(0 0 0 / 10%);
+    transform: scale(1.03);
+}
+.product-name{
+    font-size: 14px;
+}
+.product-price{
+    font: 14px;
+    font-weight: 500;
+}
+.product-oldprice{
+    font-size: 13px;
+    color: #5e5e5e;
+    text-decoration-line: line-through
+}
+@media(max-width: 1022px){
+    
+    
+}

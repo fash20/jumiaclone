@@ -1,0 +1,79 @@
+.Dropdown{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 40px;
+    border:none;
+    outline: none;
+    background-color: #fff;
+    z-index: 200;
+    
+}
+.Dropdown:hover{
+    color: #F25C05;
+}
+.dropdown-icon{
+    margin:0 5px;
+    font-size: 20px;
+}
+.dropdown-icon1{
+    margin:0 10px;
+    font-size: 17px;
+}
+.menu {
+    background: #ffffff;
+    border-radius: 5px;
+    position: absolute;
+    top: 60px;
+    width: 200px;
+    box-shadow: 0px 10px -2px rgb(0 0 0 / 5%);
+    opacity: 0;
+    visibility: hidden;
+    border: 1px solid #f2f2f2;
+    /* transform: translateY(-20px);
+    transition: opacity 0.4s ease, transform 0.4s ease, visibility 0.4s; */
+    /* display: grid; */
+    /* grid-template-columns: repeat(5,auto);  */
+  }
+  .menu.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+  
+  .signup-link{
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+       
+  }
+  .signup-link a{
+      text-decoration: none;
+      color: #F25C05;
+      height: 20px;
+  }
+.nav-cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+.nav-cart a{
+    color: black;
+    text-decoration: none;
+}
+.nav-cart a:hover{
+    color: #F25C05;
+  
+}
+.navbar-dropdowm-list{
+    display: flex;
+    height:40px;
+    width: 200px;
+    align-items: center;
+    justify-content: left;
+    
+}
