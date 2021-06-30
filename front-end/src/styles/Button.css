@@ -1,0 +1,58 @@
+.uni-button{
+    position: relative;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height:40px;
+    background-color: #f18546; 
+    padding: 5px;
+    color: #fff;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 5px -3px rgba(0, 0, 0, 0.8);
+    cursor: pointer ;
+    font-size: 14px;
+    font-weight: 500;
+    overflow: hidden;
+    user-select: none;
+}
+
+.uni-button > .ripple {
+    position: absolute;
+    background: #f7d0ba;
+    display: block;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    animation: ripple-effect .9s ease 1 forwards ;
+}
+
+@keyframes ripple-effect {
+    0% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    30% {
+      transform: scale(5);
+      opacity: 0.5;
+    }
+    50% {
+      transform: scale(10);
+      opacity: 0.375;
+    }
+    70% {
+      transform: scale(20);
+      opacity: 0.285;
+    }
+    100% {
+      transform: scale(35);
+      opacity: 0.1;
+    }
+  }
+
+
+
+.uni-button:hover{
+    background-color:  #F25C05;
+}

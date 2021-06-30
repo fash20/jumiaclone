@@ -1,0 +1,24 @@
+.rating-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 300px;
+}
+
+.rating-div{
+
+    height: fit-content;
+    padding: 1px;
+    width: 100%;
+    /* background-color: yellow; */
+    border: 1px solid #866969;
+    z-index: 1;
+    box-sizing: border-box;
+    position: relative;
+    top : 10px;
+}
+.rating-div2{
+    height:100%;
+    z-index: 2;
+}
